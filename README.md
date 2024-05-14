@@ -1,4 +1,4 @@
-Repository is dedicated to develop the differents courses in Platzi
+Repository dedicated to develop the differents courses in Platzi
 
 
 # 03 Curso Python PIP y Entornos Virtuales
