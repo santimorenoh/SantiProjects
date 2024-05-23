@@ -1,7 +1,9 @@
 def get_population(country):
     
-    keys = ['col', 'bol']
-    values = [300, 400]
+    filtered_data = list(filter(lambda item: item[0][0].isdigit(), country.items()))
+    
+    keys = [i[0].replace(' Population', '') for i in filtered_data]
+    values = [int(i[1]) for i in filtered_data]
     
     return keys, values
 
