@@ -79,9 +79,9 @@ Create new virtual enviroment:
     python3 -m venv env_name
 
 Activate virtual enviroment:
-    source env_name/bin/activate
+    source env/bin/activate
 
-    env_name\Scripts\activate.bat -> for Windows
+    env\Scripts\activate.bat -> for Windows
 
 Deactivate virtual enviroment:
     deactivate
