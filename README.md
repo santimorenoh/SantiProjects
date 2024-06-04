@@ -19,6 +19,7 @@ To run the app project you have to execute the following instructions in the Ter
 ```sh
 git clone
 cd app
+python3 -m venv env
 source env/bin/activate # for Linux or
 env\Scripts\activate.bat # for Windows
 pip3 install -r requirements.txt

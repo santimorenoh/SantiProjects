@@ -26,6 +26,17 @@ Show file content:
 
 
 
+################################### Visual Studio Code ###################################
+
+Open Visual Studio Code:
+    code .
+
+Open Visual Studio Code reusing the window already opened:
+    code . -r
+
+
+
+    
 ################################### Python ###################################
 
 Verify python path:
