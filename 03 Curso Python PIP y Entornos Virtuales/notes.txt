@@ -91,3 +91,10 @@ Deactivate virtual enviroment:
 Generate dependencies list in txt file:
     pip3 freeze > requirements.txt
 
+
+
+
+################################### Uvicorn web server ###################################
+
+Deploy web server:
+    uvicorn main:app --reload
