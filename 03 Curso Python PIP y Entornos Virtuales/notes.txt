@@ -70,6 +70,9 @@ Install from requirements.txt:
 Check installed pkg:
     pip3 freeze
 
+Install with no cache and applying upgrades to pip:
+    pip install --no-cache-dir --upgrade
+
 
 
 
@@ -98,3 +101,27 @@ Generate dependencies list in txt file:
 
 Deploy web server:
     uvicorn main:app --reload
+
+
+
+
+
+################################### Docker ###################################
+
+Build docker system:
+    docker-compose build
+
+Launch docker:
+    docker-compose up -d
+
+Check container status:
+    docker-compose ps
+
+Execute env:
+    docker-compose exec app-csv bash
+
+Leave container:
+    exit
+
+Shutdown container:
+    docker-compose down
