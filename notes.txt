@@ -1,0 +1,144 @@
+Terminal commands
+
+Execute with administrator permission:
+    sudo
+
+
+
+
+################################### Foders handling ###################################
+
+Create a folder:
+    mkdir folder_name
+
+Check the current work directory:
+    pwd
+
+List files in the current directory:
+    ls
+    ll
+
+Show file content:
+    cat file_name.txt
+
+    type file_name.txt -> for Windows
+
+
+
+
+################################### Visual Studio Code ###################################
+
+Open Visual Studio Code:
+    code .
+
+Open Visual Studio Code reusing the window already opened:
+    code . -r
+
+
+
+    
+################################### Python ###################################
+
+Verify python path:
+    which python3
+
+    where python -> for Windows
+
+Install virtual enviroments handler:
+    apt install -y python3-venv
+
+
+
+    
+################################### Pip handling ###################################
+
+Check pip version:
+    pip3 -V
+
+Verify pip3 path:
+    which pip3
+
+Install package:
+    pip3 install pkg_name
+
+Install specific package version:
+    pip3 install pkg_name==pkg_version
+
+Install from requirements.txt:
+    pip3 install -r requirements.txt
+
+Check installed pkg:
+    pip3 freeze
+
+Install with no cache and applying upgrades to pip:
+    pip install --no-cache-dir --upgrade
+
+Upgrade pip:
+    python -m pip install --upgrade pip
+
+
+
+
+################################### Virtual enviroments ###################################
+
+Create new virtual enviroment:
+    python3 -m venv env_name
+
+Activate virtual enviroment:
+    source env/bin/activate
+
+    env\Scripts\activate.bat -> for Windows
+
+Deactivate virtual enviroment:
+    deactivate
+
+    env\Scripts\deactivate.bat -> for Windows
+
+Generate dependencies list in txt file:
+    pip3 freeze > requirements.txt
+
+
+
+
+################################### Uvicorn web server ###################################
+
+Deploy web server:
+    uvicorn main:app
+    uvicorn main:app --reload   ->  --reload is to reload hot changes
+    uvicorn main:app --reload --port 5000    ->  --port is to select port
+    uvicorn main:app --reload --port 5000 --host 0.0.0.0    ->   --host is to asign host into the network
+
+
+
+
+################################### Docker ###################################
+
+Build docker system:
+    docker-compose build
+
+Launch docker:
+    docker-compose up -d
+
+Check container status:
+    docker-compose ps
+
+Execute env:
+    docker-compose exec app-csv bash
+
+Leave container:
+    exit
+
+Shutdown container:
+    docker-compose down
+
+
+
+################################### PowerShell ###################################
+
+Check current policy:
+    Get-ExecutionPolicy
+
+Change policy:
+    Set-ExecutionPolicy Restricted
+    Set-ExecutionPolicy RemoteSigned
+    Set-ExecutionPolicy Unrestricted
