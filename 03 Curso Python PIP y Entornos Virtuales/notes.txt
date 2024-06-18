@@ -1,12 +1,12 @@
 Terminal commands
 
-Execute with administrator permission:
+Execute with super user/administrator permission:
     sudo
 
 
 
 
-################################### Foders handling ###################################
+################################### Folders handling ###################################
 
 Create a folder:
     mkdir folder_name
