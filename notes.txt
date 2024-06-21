@@ -105,8 +105,8 @@ Generate dependencies list in txt file:
 Deploy web server:
     uvicorn main:app
     uvicorn main:app --reload   ->  --reload is to reload hot changes
-    uvicorn main:app --reload --port 5000    ->  --port is to select port
-    uvicorn main:app --reload --port 5000 --host 0.0.0.0    ->   --host is to asign host into the network
+    uvicorn main:app --reload --port 9000    ->  --port is to select port
+    uvicorn main:app --reload --port 9000 --host 0.0.0.0    ->   --host is to asign host into the network
 
 
 
